@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Learnings
+## ✅  Learnings
 
 ### 1.  Positioning
 * `position: relative` Position an element based on its current position without changing layout.
