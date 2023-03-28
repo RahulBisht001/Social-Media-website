@@ -1,0 +1,52 @@
+.PostShare {
+    display: flex;
+    background-color: var(--cardColor);
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.PostShare>img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.PostShare>div {
+    width: 90%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.PostShare>div>input {
+    background-color: var(--inputColor);
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    outline: none;
+}
+
+.PostOptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    padding: 5px 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option:hover {
+    cursor: pointer;
+}
+
+.ps-button {
+    padding: 5px 20px;
+    font-size: 12px;
+    border: 2px solid white;
+}
